@@ -9,8 +9,8 @@ https://pytorch.org/docs/stable/generated/torch.Tensor.view.html
 ### requirements
 ```bash
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
-
 ```
+GPU need more than 10G memory
 
 ### examples
 ```python

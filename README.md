@@ -6,11 +6,12 @@ https://nlp.stanford.edu/projects/glove/
 https://medium.com/mlearning-ai/load-pre-trained-glove-embeddings-in-torch-nn-embedding-layer-in-under-2-minutes-f5af8f57416a
 https://pytorch.org/docs/stable/generated/torch.nn.LSTM.html#lstm
 https://pytorch.org/docs/stable/generated/torch.Tensor.view.html
+https://pytorch.org/docs/stable/generated/torch.optim.lr_scheduler.StepLR.html
 ### requirements
 ```bash
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
-GPU need more than 10G memory
+GPU need more than 16G memory
 
 ### examples
 ```python

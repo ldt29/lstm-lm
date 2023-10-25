@@ -22,17 +22,5 @@ c0 = torch.randn(2, 3, 20)
 output, (hn, cn) = rnn(input, (h0, c0))
 ```
 
-### batch
-
-example:
-tokens_len = 1000
-batch_size = 20
-squence_length =10
-batch_num = 10
-
-idx = 11
-
-batch_x = idx % batch_size = 11
-batch_y = idx // batch_size = 0
 
     
